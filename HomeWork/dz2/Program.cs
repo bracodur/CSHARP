@@ -1,19 +1,18 @@
 ﻿//найти максимальное из трех чисел
-int a = 9;
-int b = 8;
-int c = 7;
+int a = 27;
+int b = 30;
+int c = 15;
 
 int max = a;
+
+
+if (b > max)
 {
- Console.WriteLine(a);
+    max = b;
+}
+if (c > max)
+{
+   max = c;
 }
 
-if (b > a)
-{
- Console.WriteLine(b);
-}
-if (c>b)
-{
- Console.WriteLine(c);
-}
-
+System.Console.WriteLine(max);
